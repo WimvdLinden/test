@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #slideshow {
+            width: 800px;
+            height: 720px;
+            margin: auto;
+            box-sizing: border-box;
+            background-size: cover;
+            object-fit: cover;
+            
+        }
+        .photo{
+        border: 18 solid white;}
+        
+        .shade {
+        box-shadow: 0 0 18 solid rgba(0, 0, 0, 0, 7);
+        }
+    </style>
+</head>
+<body>
+    <div id="slideshow"></div>
+    
+    <script
+        src = "zorba.min.js"
+        data-where = "slideshow"
+        data-folder = "fotos"
+        data-timeout = "1000">
+    </script>
+</body>
+</html>
